@@ -23,3 +23,13 @@ def make_data(size: int = 100) -> pd.DataFrame:
 ```
 
 Subsequent calls to this function will return the compressed data from redis instead of recomputing the value, after 3 hours the data will be recomputed again.
+
+## Develop
+
+This project builds python wheels using `maturin` and requires `poetry`.
+
+To build, first install poetry, then run:
+
+```sh
+poetry run maturin develop
+```
