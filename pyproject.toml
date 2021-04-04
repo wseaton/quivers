@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "quivers"
+version = "0.1.0"
+description = ""
+authors = ["Will Eaton <weaton@redhat.com>"]
+
+[tool.poetry.dependencies]
+python=">=3.7.1,<4.0"
+pyarrow = "^3.0.0"
+pandas = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+black = "^20.8b1"
+isort = "^5.8."
+ipython = "^7.22.0"
+maturin = "==0.9.4"
+Faker = "^7.0.1"
+pylint = "*"
+redis = "^3.5.3"
