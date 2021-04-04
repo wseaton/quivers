@@ -1,4 +1,4 @@
-# Quivers
+# Quive[rs]
 
 Extremely lightweight data caching decorator for compressing pyarrow objects and serializing them to redis, written as a rust extension. Binary data is compressed using snappy, then decompressed on retrieval from cache.
 
