@@ -1,7 +1,7 @@
 [package]
 name = "quivers"
 version = "0.1.0"
-authors = ["Will Eaton <weaton@redhat.com>"]
+authors = ["Will Eaton <me@wseaton.com>"]
 edition = "2018"
 
 [lib]

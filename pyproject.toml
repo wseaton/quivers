@@ -2,7 +2,7 @@
 name = "quivers"
 version = "0.1.0"
 description = ""
-authors = ["Will Eaton <weaton@redhat.com>"]
+authors = ["Will Eaton <me@wseaton.com>"]
 
 [tool.poetry.dependencies]
 python=">=3.7.1,<4.0"
